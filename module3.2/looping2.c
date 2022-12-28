@@ -3,10 +3,20 @@
 #include<stdio.h>
 int main()
 {
-    int f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, number;
-    printf("enter 10 numbers:\n");
-    scanf("%d %d %d %d %d %d %d %d %d %d", &f1, &f2, &f3, &f4, &f5, &f6, &f7, &f8, &f9, &f10);
-    
-    
-
+    int number,i;
+    printf("enter  numbers:");
+    scanf("%d",&number);
+    for (int i = 1; i <= number; i++)
+    {
+        printf("\n%d",i);
+    }
+    if(i % 2 == 0)
+    {
+        printf("number is even",number);
+    }
+    else
+    {
+        printf("number is odd",number);
+    }
+    return 0;
 }
