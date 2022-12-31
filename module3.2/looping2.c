@@ -3,20 +3,21 @@
 #include<stdio.h>
 int main()
 {
-    int number,i;
-    printf("enter  numbers:");
-    scanf("%d",&number);
-    for (int i = 1; i <= number; i++)
+    int aaray[10];
+    for (int i = 0; i < 10; i++)
     {
-        printf("\n%d",i);
+        scanf("%d", &aaray[i]);
     }
-    if(i % 2 == 0)
+    for ( int i = 0; i < 10; i++)
     {
-        printf("number is even",number);
-    }
-    else
-    {
-        printf("number is odd",number);
+        if(aaray[i] % 2 == 0)
+        {
+            printf("%d is even\n", aaray[i]);
+        }
+        else
+        {
+            printf("%d is odd\n", aaray[i]);
+        }
     }
     return 0;
 }
