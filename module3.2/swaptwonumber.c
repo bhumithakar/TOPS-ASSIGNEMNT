@@ -10,6 +10,5 @@ int main()
     f=a-f;
     a=f-a;
     printf("a=%d\n f=%d\n", a,f);
-    
     return 0;
 }

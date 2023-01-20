@@ -1,4 +1,4 @@
-//6.sum of odd numvers WAP to print table up to given numbers
+//6.sum of odd numbers WAP to print table up to given numbers
 
 #include<stdio.h>
 int main()
@@ -16,7 +16,7 @@ int main()
             sum = sum + i;
         }
     }
-    printf("the sum of all even number upto %d = %d\n", number, sum);
+    printf("the sum of all odd number upto %d = %d\n", number, sum);
 
     return 0;
 }

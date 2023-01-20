@@ -3,5 +3,15 @@
 #include<stdio.h>
 int main()
 {
-    
+    int n, sum = 0, f;
+    printf("enter a number:",n);
+    scanf("%d", &n);
+    while(n>0)
+    {
+        f=n%10;
+        sum+=f;
+        n/=10;
+    }
+    printf("sum is %d",sum);
+    return 0;
 }
