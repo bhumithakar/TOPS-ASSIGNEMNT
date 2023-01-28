@@ -3,11 +3,11 @@ int main()
 {
     char a;
     int a1,a2;
-    printf("enter number 1");
+    printf("enter number 1: ");
     scanf("%d", &a1);
     printf("enter symbol:+\n -\n *\n");
-    scnf("%c", &a);
-    printf("enter number 2");
+    scanf("%c", &a);
+    printf("enter number 2: ");
     scanf("%d", &a2);
     switch (a)
     {

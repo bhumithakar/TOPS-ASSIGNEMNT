@@ -15,7 +15,7 @@ int main()
 
     for(int i =0;i< f;i++)
     {
-    printf("number of employee%d", i);
+    printf("number of employee%d\n", i);
         printf("enter name");
         scanf("%s", a[i].name);
         printf("enter id");
@@ -23,7 +23,7 @@ int main()
         printf("enter age");
         scanf("%d", &a[i].age);
 
-        printf("name=%d id=%d age=%d", a[i].name, a[i].id, a[i].age);
+        printf("name=%s id=%d age=%d", a[i].name, a[i].id, a[i].age);
     }
     return 0;
 }
