@@ -1,0 +1,136 @@
+<!-- Create Registration form using HTML, CSS 
+In how many ways can a CSS be integrated as a web page? 
+Create simple three pages using External CSS, Internal CSS, and Inline CSS. 
+Create below page using HTML CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .h2 {
+      padding-top: 4px;
+      margin-top: 4px;
+      background-color: rgb(37, 130, 184);
+      color: rgb(158, 38, 38);
+    }
+
+    .form {
+      background-color: rgb(81, 138, 138);
+      color: rgb(18, 18, 87);
+    }
+
+    .b {
+      color: rgb(158, 38, 38);
+    }
+  </style>
+</head>
+
+<body>
+  <h2 align="center" class="h2">Individual Ragistration</h2>
+  <form class="form">
+    <table align="center" width="100%">
+      <thead><b class="b">User Particulars</b></thead>
+
+      <tr>
+        <td align="right"><label for="idd" class="form">Login Id</label></td>
+        <td><input type="email" name="" id="idd" required></td>
+      </tr>
+      <tr>
+        <td align="right"> <label for="passwo" class="form">password</label>
+        </td>
+        <td><input type="password" name="" id="passwo"></td>
+      </tr>
+      <tr>
+        <td align="right">
+          <label for="pass" class="form">Confirm Password</label>
+        </td>
+        <td><input type="password" name="" id="pass"></td>
+      </tr>
+      </tr>
+    </table><br><br>
+    <table align="center" width="90%">
+      <thead>
+        <b class="b"> personal Particulars</b>
+      </thead>
+      <tr>
+        <td align="right" class="form">salutation</td>
+        <td><select name="">
+            <option value="" class="form">select</option>
+          </select></td>
+        <td align="right" class="form">First Name</td>
+        <td><input type="text"></td>
+
+      </tr>
+      <tr>
+        <td align="right" class="form">Middle Name</td>
+        <td><input type="text"></td>
+        <td align="right" class="form">Last Name</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td align="right" class="form">Resident Status</td>
+        <td><select name="">
+            <option value="" class="form">Select</option>
+            <option value="" class="form">Surat</option>
+            <option value="" class="form">Baroda</option>
+            <option value="" class="form">Vapi</option>
+            <option value="" class="form">Rajkot</option>
+            <option value="" class="form">Jamnagar</option>
+          </select></td>
+        <td align="right" class="form">Country</td>
+        <td><select name="">
+            <option value="" class="form">Select</option>
+            <option value="" class="form">India</option>
+            <option value="" class="form">USA</option>
+            <option value="" class="form">UK</option>
+            <option value="" class="form">Canada</option>
+            <option value="" class="form">Lundon</option>
+          </select>
+      </tr>
+      <tr>
+        <td align="right" class="form">Email-id</td>
+        <td><input type="email"></td>
+        <td align="right" class="form">Mobile number</td>
+        <td><input type="number"></td>
+      </tr>
+    </table><br><br>
+    <table align="center" width="90%">
+      <thead><b class="b">Account Particulars</b></thead>
+      <tr>
+        <td align="right" class="form">15 Digit Account<br>No</td>
+        <td><input type="text"></td>
+        <td align="right" class="form">nick name</td>
+        <td><input type="text"></td>
+      </tr>
+      <td align="right" class="form">Fund Transfer</td>
+      <td><select>
+          <option value="" class="form">select</option>/select></td>
+    </table><br><br>
+    <table>
+      <thead><b class="b">DECLARATION</b><BR><BR>I have read, understood and hereby agree to the Terms and Conditions in
+        respect of all products and channels. I understand that any changes in the terms and conditions applicable to this
+        relationship would be made available to me on request at any 108 branches. I confirm that all accounts under this 
+        login name are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) 
+        under his her joint name respectively. I do hereby declare that information furnished in this form is true to the 
+        best of my knowledge and belief.</thead>
+    </table><br><br>
+    <table align="center">
+      <tr>
+        <td>
+          <input type="submit" value="Submit"
+            style="background-color: rgb(37, 130, 184); color: black; border-radius: 3px;">
+          <input type="reset" value="Reset"
+            style="background-color: rgb(37, 130, 184); color: black; border-radius: 3px;">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+
+</html>
